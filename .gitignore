@@ -1,0 +1,116 @@
+# Project exclude paths
+/.gradle/
+/Cinema Room Manager/task/build/
+/Cinema Room Manager/task/out/
+/Cinema Room Manager/task/out/production/classes/
+/Topics/For loop and lists/Triples/out/
+/Topics/For loop and lists/Triples/out/production/classes/
+/.idea/.gitignore
+/Topics/For loop and lists/Reverse printing/answer.txt
+/build.gradle
+/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.iml
+/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.main.iml
+/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.test.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-java.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-java.main.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-java.test.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/kotlin/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-kotlin.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/kotlin/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-kotlin.main.iml
+/.idea/modules/Cinema Room Manager/task/build/classes/kotlin/Cinema_Room_Manager.Cinema_Room_Manager-task-build-classes-kotlin.test.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/annotationProcessor/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-annotationProcessor-java.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/annotationProcessor/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-annotationProcessor-java.main.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/annotationProcessor/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-annotationProcessor-java.test.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/headers/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-headers-java.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/headers/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-headers-java.main.iml
+/.idea/modules/Cinema Room Manager/task/build/generated/sources/headers/java/Cinema_Room_Manager.Cinema_Room_Manager-task-build-generated-sources-headers-java.test.iml
+/.idea/modules/Cinema Room Manager/task/build/reports/tests/Cinema_Room_Manager.Cinema_Room_Manager-task-build-reports-tests.iml
+/.idea/modules/Cinema Room Manager/task/build/reports/tests/Cinema_Room_Manager.Cinema_Room_Manager-task-build-reports-tests.main.iml
+/.idea/modules/Cinema Room Manager/task/build/reports/tests/Cinema_Room_Manager.Cinema_Room_Manager-task-build-reports-tests.test.iml
+/.idea/modules/Cinema Room Manager/task/build/test-results/Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.iml
+/.idea/modules/Cinema Room Manager/task/build/test-results/Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.main.iml
+/.idea/modules/Cinema Room Manager/task/build/test-results/Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.test.iml
+/.idea/modules/Cinema Room Manager/task/build/tmp/Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.iml
+/.idea/modules/Cinema Room Manager/task/build/tmp/Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.main.iml
+/.idea/modules/Cinema Room Manager/task/build/tmp/Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.test.iml
+/.idea/modules/Cinema_Room_Manager.iml
+/.idea/modules/Topics/For loop and lists/Print all elements/Cinema_Room_Manager.Topics-For_loop_and_lists-Print_all_elements.iml
+/.idea/modules/Topics/For loop and lists/Print all elements/Cinema_Room_Manager.Topics-For_loop_and_lists-Print_all_elements.main.iml
+/.idea/modules/Topics/For loop and lists/Print all elements/Cinema_Room_Manager.Topics-For_loop_and_lists-Print_all_elements.test.iml
+/.idea/modules/Topics/For loop and lists/Theory/Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.iml
+/.idea/modules/Topics/For loop and lists/Theory/Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.main.iml
+/.idea/modules/Topics/For loop and lists/Theory/Cinema_Room_Manager.Topics-For_loop_and_lists-Theory.test.iml
+/.idea/modules/Topics/For loop and lists/Triples/Cinema_Room_Manager.Topics-For_loop_and_lists-Triples.iml
+/.idea/modules/Topics/For loop and lists/Triples/Cinema_Room_Manager.Topics-For_loop_and_lists-Triples.main.iml
+/.idea/modules/Topics/For loop and lists/Triples/Cinema_Room_Manager.Topics-For_loop_and_lists-Triples.test.iml
+/.idea/modules/util/Cinema_Room_Manager.util.iml
+/.idea/modules/util/Cinema_Room_Manager.util.main.iml
+/.idea/modules/util/Cinema_Room_Manager.util.test.iml
+/Cinema Room Manager/task/test/CinemaTests.java
+/.idea/compiler.xml
+/course-info.yaml
+/course-remote-info.yaml
+/.idea/externalDependencies.xml
+/.idea/gradle.xml
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml
+/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml
+/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml
+/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
+/.idea/libraries/Gradle__junit_junit_4_13_2.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml
+/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml
+/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_10.xml
+/gradlew
+/gradlew.bat
+/.idea/jarRepositories.xml
+/.idea/kotlinc.xml
+/Cinema Room Manager/lesson-info.yaml
+/Topics/For loop and lists/lesson-info.yaml
+/Topics/For loop and lists/Print all elements/src/Main.kt
+/Topics/For loop and lists/Theory/src/Main.kt
+/Topics/For loop and lists/Triples/src/Main.kt
+/.idea/misc.xml
+/.idea/modules.xml
+/Topics/section-info.yaml
+/settings.gradle
+/.idea/frameworkLessonHistory/storage.storageData
+/.idea/frameworkLessonHistory/storage.storageRecordIndex
+/Cinema Room Manager/Arrangement/task.html
+/Cinema Room Manager/Errors/task.html
+/Cinema Room Manager/Menu, please/task.html
+/Cinema Room Manager/Sold/task.html
+/Cinema Room Manager/Tickets/task.html
+/Topics/For loop and lists/Print all elements/task.html
+/Topics/For loop and lists/Reverse printing/task.html
+/Topics/For loop and lists/Theory/task.html
+/Topics/For loop and lists/Triples/task.html
+/Cinema Room Manager/Arrangement/task-info.yaml
+/Cinema Room Manager/Errors/task-info.yaml
+/Cinema Room Manager/Menu, please/task-info.yaml
+/Cinema Room Manager/Sold/task-info.yaml
+/Cinema Room Manager/Tickets/task-info.yaml
+/Topics/For loop and lists/Print all elements/task-info.yaml
+/Topics/For loop and lists/Reverse printing/task-info.yaml
+/Topics/For loop and lists/Theory/task-info.yaml
+/Topics/For loop and lists/Triples/task-info.yaml
+/Cinema Room Manager/Arrangement/task-remote-info.yaml
+/Cinema Room Manager/Errors/task-remote-info.yaml
+/Cinema Room Manager/Menu, please/task-remote-info.yaml
+/Cinema Room Manager/Sold/task-remote-info.yaml
+/Cinema Room Manager/Tickets/task-remote-info.yaml
+/Topics/For loop and lists/Print all elements/task-remote-info.yaml
+/Topics/For loop and lists/Reverse printing/task-remote-info.yaml
+/Topics/For loop and lists/Theory/task-remote-info.yaml
+/Topics/For loop and lists/Triples/task-remote-info.yaml
+/.idea/vcs.xml

@@ -27,6 +27,10 @@ class CinemaRoom(
         "S".repeat(seatsInRow).toMutableList()
     }
 
+    fun changeCinemaSize() {
+        //TODO: add possibility to change cinema size
+    }
+
     fun printCinemaScheme() {
         val numberOfRows = schemeCinema.lastIndex + 1
         val seatsInRow = schemeCinema[0].lastIndex + 1
@@ -163,6 +167,7 @@ fun main() {
             1 -> cinema.printCinemaScheme()
             2 -> cinema.userBuyATicket()
             3 -> cinema.showStatistics()
+            4 -> cinema.changeCinemaSize()
         }
     }
 }
