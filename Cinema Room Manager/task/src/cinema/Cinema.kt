@@ -1,17 +1,27 @@
 package cinema
 
 class CinemaRoom(
-    //TODO: Check that numbers of rows and seats are > 0
-    private val numberOfRows: Int = 5,
-    private val seatsInRow: Int = 10,
+    _numberOfRows: Int = 5,
+    _seatsInRow: Int = 10,
     private var frontTicketPrice: Int = 10,
     private var backTicketPrice: Int = 8,
-    private val totalSeatsToConsiderCinemaBig: Int = 60,
+    totalSeatsToConsiderCinemaBig: Int = 60,
 ) {
+    // Check that numbers of rows and seats are > 0
+    private var numberOfRows: Int = 1
+    private var seatsInRow: Int = 1
+    init {
+        if(_numberOfRows < 1 || _seatsInRow < 1) {
+            println("Number of rows and/or seats is too small. Set to default - 1, 1.")
+        } else {
+            numberOfRows = _numberOfRows
+            seatsInRow = _seatsInRow
+        }
+    }
+
     // Calculating ticket price and total number of rows
     private val totalSeats = numberOfRows * seatsInRow
     private var numberOfPurchasedTickets = 0
-    private var incomeIfAllTicketsInRoomAreSold = 0
     private var currentIncomeFromSoldTickets = 0
 
     init {
@@ -28,7 +38,40 @@ class CinemaRoom(
     }
 
     fun changeCinemaSize() {
-        //TODO: add possibility to change cinema size
+        println("Enter new number of rows:")
+        val newNumberOfRows = readln().toInt()
+        println("Enter new number of seats in row:")
+        val newNumberOfSeatsPerRow = readln().toInt()
+
+        if(newNumberOfRows < 1 || newNumberOfSeatsPerRow < 1) {
+            println("Number of rows and/or seats is too small. Must be more than 1, 1.")
+        } else {
+            numberOfRows = newNumberOfRows
+            seatsInRow = newNumberOfSeatsPerRow
+            println("New cinema room size: $numberOfRows rows, $seatsInRow seats per row.")
+        }
+    }
+
+    fun changeTicketPrices() {
+        var newBackTicketPrice: Int = -1
+        var newFrontTicketPrice: Int = -1
+        try {
+            println("Enter new back ticket price:")
+            newBackTicketPrice = readln().toInt()
+            println("Enter new front ticket price:")
+            newFrontTicketPrice = readln().toInt()
+        } catch (e: NumberFormatException) {
+            println("Not a number.")
+            return
+        } finally {
+            if (newBackTicketPrice < 0 || newFrontTicketPrice < 0) {
+                println("Incorrect input (price can't be negative.)")
+            } else {
+                backTicketPrice = newBackTicketPrice
+                frontTicketPrice = newFrontTicketPrice
+                println("New ticket prices: front -\$$frontTicketPrice, back - \$$backTicketPrice")
+            }
+        }
     }
 
     fun printCinemaScheme() {
@@ -132,24 +175,21 @@ class CinemaRoom(
             """
                |1. Show the seats
                |2. Buy a ticket
+               |// Administrator:
                |3. Statistics
+               |4. Change cinema room size
+               |5. Change ticket prices
                |0. Exit
                """.trimMargin()
         )
     }
 }
-
-
 fun main() {
     // Input cinema size
     println("Enter the number of rows:")
     val inputNumberOfRows = readln().toInt()
     println("Enter the number of seats in each row:")
     val inputSeatsInRow = readln().toInt()
-
-    // Input cinema ticket prices
-    val inputFrontTicketPrice = 10
-    val inputBackTicketPrice = 8
 
     // Creating a cinema (with default args)
     val cinema = CinemaRoom(inputNumberOfRows, inputSeatsInRow)
@@ -158,16 +198,14 @@ fun main() {
     while (true) {
         cinema.printUserMenu()
 
-        when (try {
-            readln().toInt()
-        } catch (e: NumberFormatException) {
-            1
-        }) {
+        when (try { readln().toInt() } catch (e: NumberFormatException) { 1 }) {
             0 -> break
             1 -> cinema.printCinemaScheme()
             2 -> cinema.userBuyATicket()
             3 -> cinema.showStatistics()
             4 -> cinema.changeCinemaSize()
+            5 -> cinema.changeTicketPrices()
+            else -> println("No such option exits!")
         }
     }
 }
